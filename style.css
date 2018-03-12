@@ -63,7 +63,7 @@ html, body {
     width: 100%;
     background-color: #FFFFFF;
     padding: 1em;
-    
+
   }
 
   .spot {
@@ -75,26 +75,26 @@ html, body {
   }
 
   #purse {
-    top: 174px;
+    top: 71px;
     right: 59%;
     background-color: #5f4242f0;
   }
 
   #basket {
-    top: 47%;
-    right: 47%;
+    top: 43%;
+    right: 43%;
     background-color: #d00404b0;
   }
 
   #items {
     top: 36%;
-    right: 15%;
+    right: 4%;
     background-color: #cc9a9abd;
   }
 
   #woman {
-    top: 21%;
-    right: 60%;
+    top: 18%;
+    right: 56%;
     background-color: #9e7d7d70;
   }
 
