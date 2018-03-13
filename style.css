@@ -42,20 +42,22 @@ html, body {
     width: 100%;
   }
 
-  div.modal {
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: 200%;
-    left: 0;
-    padding: 1em;
-    background-color: rgba(0,0,0,0.65);
-    transition: top 0.5s ease-in-out;
-    overflow: block;
+div.modal{
+ height: 45vh;
+ width: 75vw;
+ position:
+ fixed; top: 200%;
+ right: 12.5%;
+ padding: 1em;
+ background-color: rgba(0,0,0,0.65);
+ transition:
+ top 0.7s ease-in-out;
+ opacity: .90;
+ text-align: center;
   }
 
   div.modal.active {
-    top: 0;
+    top: 0%;
   }
 
   div.modal div.inner {
