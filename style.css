@@ -17,24 +17,32 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
-    margin: 10px;
-    background-color: #9CF1FE;
+    /* margin: 10px; */
+    background-color: #FFFFFF;
 
+}
+
+.container {
+max-width: 95%;
+margin: 0 auto;
+display: block;
 }
   h1 {
     font-family: 'Hind', sans-serif;
     text-align: center;
 }
 
-  img {
-    max-width: 100%;
+  img, figure {
+    width: 100%;
 
 
   }
 
+
+
   div.hotspot {
     position:relative;
-    max-width: 980px;
+    /* max-width: 980px; */
     margin: 0 auto;
   }
 
@@ -42,27 +50,30 @@ html, body {
     width: 100%;
   }
 
-  div.modal {
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    top: 200%;
-    left: 0;
-    padding: 1em;
-    background-color: rgba(0,0,0,0.65);
-    transition: top 0.5s ease-in-out;
-    overflow: block;
+div.modal{
+ height: 100vh;
+ width: 100w;
+ position:
+ fixed; top: 200%;
+ /* right: 12.5%; */
+ /* padding: 1em; */
+ background-color: rgba(0,0,0,0.65);
+ transition:
+ top 0.7s ease-in-out;
+ opacity: .90;
+ text-align: center;
   }
 
   div.modal.active {
-    top: 0;
+    top: 0%;
   }
 
   div.modal div.inner {
     height: 100%;
     width: 100%;
     background-color: #FFFFFF;
-    padding: 1em;
+    /* padding: 1em; */
+    font-size: 2.5em;
 
   }
 
@@ -113,7 +124,7 @@ html, body {
         font-size: 20px;
       }
       img{
-        max-width: 85%;
+        /* max-width: 85%; */
         margin: 0 auto;
       }
 
